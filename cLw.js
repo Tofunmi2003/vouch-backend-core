@@ -102,14 +102,14 @@ try{
 
 
 
-// 1. Your simulated Database Fetcher
+
 const getClientAsync = async (index) => {
-// This simulates the 2-second wait for the internet
+
 await new Promise(resolve => setTimeout(resolve, 2000));
 return vouchClient[index];
 };
 
-// 2. Your Emergency Audit Logic
+
 const runEmergencyAudit = async (clientIndex) => {
 try {
 console.log("--- Connecting to Vouch Database... ---");
@@ -131,5 +131,5 @@ console.log("An error occurred while connecting to the database:", error);
 return;
 }      
 }
-// 3. RUN THE TEST
+
 runEmergencyAudit(0);

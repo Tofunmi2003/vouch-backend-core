@@ -2,9 +2,9 @@
   "name": "purely-js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cLw.js",
   "scripts": {
-    "start": "node clw.js"
+    "start": "node cLw.js"
   },
   "keywords": [],
   "author": "",
